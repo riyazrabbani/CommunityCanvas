@@ -33,7 +33,7 @@ const signup = (req, res, next) => {
 
     DUMMY_USERS.push(createdUser);
 
-    res.status(201).json({user: createdUser})
+    res.status(201).json({user: createdUser});
 }
 
 const login = (req, res, next) => {
